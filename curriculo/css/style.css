@@ -1,0 +1,118 @@
+body {
+   background-color: #b5abab; 
+   color: rgb(20, 11, 11); 
+   font-family: Arial, sans-serif; 
+} 
+
+.container { 
+    width:70%;
+    max-width: 800px; 
+    margin: 10px auto; 
+    padding: 30px; 
+    background-color:#fbfbfb;
+    border-radius: 15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1)
+} 
+
+.perfil { 
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+} 
+
+.curriculo { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+} 
+
+.curriculo h1 { 
+    margin: 0 0 10px; 
+    color: rgb(80, 19, 19); 
+} 
+
+.curriculo h2 { 
+    margin: 0 0 10px; 
+    color: #ef3281; 
+    font-size: 18px; 
+} 
+
+.curriculo p { 
+    margin: 5px 0;
+ } 
+ 
+ .foto {
+     width: 150px; 
+     height: 150px; 
+     border-radius: 50%; 
+     object-fit: cover; 
+ } 
+ 
+ button { 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    color: #db1313; 
+
+}
+
+.formulario{
+    width:450px;
+    max-width: 100%;
+    padding:30px;
+    background-color:white;
+    border-radius:17px;
+    box-shadow:0,5px 15px rgba(0,0,0,0.15);
+
+}
+
+.formulario h2{
+    text-align:center;
+    margin-top:15px;
+    margin-bottom:22px;
+
+}
+
+.formulario label{
+    display:block;
+    margin-top:12px;
+    margin-bottom:6px;
+
+}
+
+.formulario input, .formulario textarea{
+    display:block;
+    width:100%;
+    padding:11px;
+    border:1px solid #cccccc;
+    border-radius:6px;
+    font-family:Arial,sans-serif;
+    font-size:15px;
+
+}
+
+.formulario textarea{
+    min-height:90px;
+    resize:vertical;
+    
+}
+
+.formulario button{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+
+}
+
+.formulario input:focus,
+.formulario textarea:focus{
+    outline: 2px solid #087bfa;
+    outline-offset: 1px;
+
+}
+
+[hidden] {
+    display: none !important;
+    
+}
